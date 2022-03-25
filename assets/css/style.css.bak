@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+.row,.row::after,.row::before{
+	width:100%;
+	display:table;
+	clear:both;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+.container{
+	width:1090px;
+	margin:0 auto;
+}
+.col6,.col3{
+	float:left;
+	padding:0 15px
+}
+.col6{
+	width:50%;
+}
+.col3{
+	width:25%;
+}
+#background-image{
+	background-image:url(../images/heroimage.jpg);
+	width:100%;
+	height:100%;
+	background-position:center center;
+	background-repeat:no repeat;
+	
+}
+.herosection{
+		padding:230px 170px;
+
+}
+.heading{
+	font-size:53px;
+	font-weight:bold;
+	color:#fff;
+}
+.para{
+	font-size:14px;
+	color:#fff;
+	font-weight:400;
+	margin:30px 0 40px;
+}
+.button1,.button2{
+	padding:20px 15px;
+	background-color:#fb527a;
+	text-transform:capitalize;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	border:1px solid #fff;
+	transition:all 1.5s ease-in-out;
+	padding-right:30px;
+	cursor:pointer;
+	
+}
+.button{
+	padding-right:30px;
+}
+.button1:hover,
+.button2:hover{
+	color:#fb527a;
+	background-color:#fff;
+}
+.sevices{
+	padding-top:110px;
+}
+.sevicehead {
+	font-size:39px;
+	color:#000;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:80px;
+}
+.card-head{
+	font-size:16px;
+	font-weight:bold;
+}

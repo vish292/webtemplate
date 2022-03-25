@@ -1,0 +1,426 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+.row,.row::after,.row::before{
+	width:100%;
+	display:table;
+	clear:both;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+.mb-35{
+	margin-bottom: 35px;
+}
+.mb-43{
+	margin-bottom: 43px;
+}
+.container{
+	width:1090px;
+	margin:0 auto;
+}
+.col6,.col3,.col12,.col4{
+	float:left;
+	padding:0 15px
+}
+.col6{
+	width:50%;
+	
+}
+.col3{
+	width:25%;
+}
+.col12{
+	width:100%;
+
+}
+.col4{
+	width:calc(400% / 12);
+}
+#background-image{
+	background-image:url(../images/heroimage.jpg);
+	width:100%;
+	height:100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	
+}
+.herosection{
+		padding:230px 170px;
+
+}
+.heading{
+	font-size:53px;
+	font-weight:bold;
+	color:#fff;
+}
+.para{
+	font-size:14px;
+	color:#fff;
+	font-weight:400;
+	margin:30px 0 40px;
+}
+.button1,.button2{
+	padding:20px 15px;
+	background-color:#fb527a;
+	text-transform:capitalize;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	border:1px solid #fff;
+	transition:all 0.5s ease-in-out;
+	padding-right:30px;
+	cursor:pointer;
+	
+}
+.button{
+	padding-right:30px;
+}
+.button1:hover,
+.button2:hover{
+	color:#fb527a;
+	background-color:#fff;
+}
+.services{
+	padding:110px 0 115px;
+}
+.service-head {
+	font-size:39px;
+	color:#000;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:80px;
+	transition: all 0.2s ease-in-out;
+}
+.service-head:hover{
+	transform: scale(1.5);
+}
+
+.card-head{
+	transform:scale(1.5px);
+	font-weight:bold;
+	margin:35px 0 50px;
+	transition: all 0.5s ease-in-out;
+	font-size: 14px;
+
+}
+.card-para{
+	margin-bottom: 70px;
+	font-size: 11px;
+	color:#4a4c4c;
+	font-weight: bold;
+	height:50px;
+	width:130px;
+	margin:0 auto;
+	transition: all 0.5s ease-in-out;
+}
+.card-para:hover{
+	transform: scale(1.05);
+}
+.service-card{
+	width:250px;
+	height:300px;
+	border:2px solid #e2e3e2;
+	padding: 55px 45px;
+	border-radius:5px;
+	margin: 0 auto;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+
+	
+}
+.service-card:hover{
+	transform: translateY(-15px);
+	transform: scale(1.05);
+
+}
+.service-card:hover::after{
+	width:100%;
+}
+.service-card::after{
+	content: '';
+	width:0;
+	height:3px;
+	background-color: #ff507a;
+	top:0;
+	left:0;
+	position: absolute;
+}
+
+.card-head:hover{
+	transform:scale(1.5);
+
+}
+.service-card i{
+	font-size: 60px;
+
+}
+.web-head{
+	font-size: 31px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#393636;
+	transition: all 0.2s ease-in-out;
+	
+}
+.web-head::before{
+	content: '';
+	width:0;
+	height:4px;
+	background-color: #fb527a;
+	bottom:0;
+	left:0;
+	position: absolute;
+	transition: all 0.2s ease-in-out;
+}
+.web-head:hover::before{
+	transform: scale(1.05);
+	background-color:#ff507a;
+	width: 385px;
+	transition:all 0.2s ease-in-out;
+}
+.web-subhead{
+	font-weight: bold;
+	font-size: 28px;
+	margin:30px 0 65px;
+	color:#393636;
+}
+
+
+	
+.overplay{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+}
+.videoimage{
+	
+	background-image:  linear-gradient(rgb(0, 0, 0,0.8),rgb(0, 0, 0,0.8)) , url(../images/videoimg.jpg);
+	width:100%;
+	height:530px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position:relative;
+
+}
+.videosection{
+	padding-bottom: 85px;
+}
+.target{
+	padding:120px 0;
+	background-color: #f7f3f7;
+}
+.targetcard{
+	width:330px;
+	height:365px;
+	border:1px solid #e2e3e2;
+	padding: 85px 40px 65px;
+	background-color: #fff;
+	/* color:#ff517b; */
+	box-shadow: 0 0 3px 0 rgb(0, 0, 0,0.3);
+	transition: all 2s ease-in-out;
+}
+.targetcard:hover{
+	background-color:#ff517b ;
+	color:#fff;
+	transform: scale(1.05);
+}
+.rocket:hover{
+	color: #fff;
+}
+
+
+
+.rocket a i{
+	font-size: 45px;
+	color:#313431;
+	margin:85px,165px,0;
+	text-align: center;
+	
+}
+.targetcard:hover hr{
+	background-color:#fff;
+}
+.targetcard:hover i{
+	color:#fff;
+}
+
+
+.targetcard hr{
+
+	width:48px;
+	height:4px;
+	background-color: #ff507a;;
+	margin:0 auto;
+	margin-bottom: 35px;
+	border:none;
+
+	
+
+}
+
+
+.tarhead{
+	font-size: 31px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	
+}
+.targetpara{
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: capitalize;
+	line-height: 15px;
+	
+}
+.meetour{
+	padding: 90px 0;
+}
+.meethead{
+	font-size: 27px;
+	font-weight: bold;
+	color:#000;
+	text-transform: capitalize;
+}
+.meetsubhead{
+	font-size: 21px;
+	color:#000;
+	margin: 10px 0 30px;
+	text-transform: capitalize;
+}
+.meetpara{
+	font-size: 14px;
+	margin-bottom: 55px;
+	font-family: 400;
+
+	
+}
+.socialicons i{
+	width:35px;
+	height:35px;
+	background-color: #fb527a;
+	color:#fff;
+	font-size: 15px;
+	padding:12px 10px ;
+	font-size: 12px;
+
+
+}
+.item img{
+	object-fit: cover;
+}
+.owl-info{
+	width:560px
+}
+.owl-dots{
+	background-color: #fb527a;
+	width:150px;
+	margin:10px auto;
+}
+.owl-theme.owl-dots.owl-dot span{
+	background-color: transparent;
+	border-radius: 0;
+	border: 4px solid #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme.owl-dots.owl-dots.owl-dot:hover span{
+	background-color: #fff;
+	border: 3px solid #fff;
+	
+}
+.plugins{
+	padding:98px 0 165px;
+}
+.progress{
+	width:570px;
+	height:25px;
+	background-color: #efefef;
+	position: relative;
+}
+.progress1{
+	width:570px;
+	height:25px;
+	background-color: #efefef;
+	position: relative;
+}
+.container-md{
+	width:1170px;
+	margin: 0 auto;
+}
+.progress::after{
+	content:"";
+	background-color: #fb527a;
+	width:95%;
+	height: 25px;
+	top:0;
+	left:0;
+	position: absolute;
+
+}
+.skill h4 {
+	margin-bottom: 12px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.progress-bar span{
+	font-size: 11px;
+	background-color: #212029;
+	color:#fff;
+	padding: 4px;
+	position: absolute;
+	top:-30px;
+	left:92%
+}
+.progress-bar span::before{
+	content: "";
+	height: 10px;
+	width:10px;
+	background-color: #212029;
+	position: absolute;
+	top:70%;
+	left:37%;
+	transform: rotate(45deg);
+
+}
+.progress1::after{
+	content:"";
+	background-color: #fb527a;
+	width:75%;
+	height: 25px;
+	top:0;
+	left:0;
+	position: absolute;
+
+}
+.progress-bar1 span{
+	font-size: 11px;
+	background-color: #212029;
+	color:#fff;
+	padding: 4px;
+	position: absolute;
+	top:-30px;
+	left:72%
+}
+.progress-bar1 span::before{
+	content: "";
+	height: 10px;
+	width:10px;
+	background-color: #212029;
+	position: absolute;
+	top:70%;
+	left:37%;
+	transform: rotate(45deg);
+
+}
